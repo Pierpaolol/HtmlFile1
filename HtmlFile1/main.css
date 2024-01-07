@@ -1,0 +1,174 @@
+/* COSTANTI */
+:root{
+    /*Colori*/
+    --PRIMARY: rgb(0, 106, 34);
+    --PRIMARY-BACKGROUND-COLOR: rgb(67, 67, 67);
+    --SECONDARY-BACKGROUND-COLOR: rgb(32, 32, 32);
+    --COLORESCRITTE: rgb(1, 188, 101);
+    --SECONDARY: rgb(0, 145, 46);
+    --TERTIARY: rgb(81, 255, 0)
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+
+}
+html{
+    display: inline-block;
+    background-color: var(--SECONDARY-BACKGROUND-COLOR);
+    font-size: large;
+    margin: 0.75rem;
+    margin-top: 0px;
+    padding: 0.75rem;
+    padding-top: 0px;
+    line-height: 1.5;
+    /*font-weight: 1;*/
+    font-family: sans-serif, Helvetica, Arial;
+    text-align: center; 
+}
+body{ 
+    font: inherit;
+    text-align: center;
+    /*background-color: rgb(14, 14, 14);*/
+    color: var(--COLORESCRITTE);
+}
+fieldset ::content{
+    font: inherit;
+    padding: 1rem;
+}
+h1{
+    background-color: var(--PRIMARY);
+    font: inherit;
+    font-size: xx-large;
+    font-weight: bold;
+    border-spacing: 0.75rem;
+    border-radius: 0.7rem;
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+    max-width: 600px;
+}
+h1:hover{
+    cursor: pointer;
+    background-color:var(--SECONDARY);
+    color: var(--PRIMARY-BACKGROUND-COLOR);
+}
+h1:active{
+    background-color:var(--TERTIARY);
+}
+h2{
+    font: inherit;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+}
+
+main{
+    background-color: var(--PRIMARY-BACKGROUND-COLOR);
+    font: inherit;
+    border: 1px solid var(--PRIMARY);
+    border-spacing: 0.75rem;
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+    border-radius: 0.7rem;
+    max-width: 600px;
+}
+fieldset{
+    font: inherit;
+    border: none;
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+}
+p{
+    font: inherit;
+    font-size: ;
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+}
+button{
+    font: inherit;
+    font-weight: bold;
+    background-color: var(--PRIMARY);
+    color: var(--SECONDARY-BACKGROUND-COLOR);
+    padding: 1.5%;
+    border-radius: 0.7rem;
+    border-style: none;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: var(--SECONDARY);
+}
+button:active{
+    background-color:var(--TERTIARY);
+}
+
+a{
+    font: inherit;
+    text-decoration: none;
+  color:var(--PRIMARY);  
+}
+a:hover{
+    font: inherit;
+    color: var(--SECONDARY);
+}
+a:visited{
+    font: inherit;
+    color: rgb(0, 164, 123);
+}
+
+input {
+    
+    font: inherit;
+    font-weight: bold;
+    background-color: var(--PRIMARY);
+    color: var(--SECONDARY-BACKGROUND-COLOR);
+    padding: 1.5%;
+    border-radius: 0.7rem;
+    border-style: none;
+
+}
+input:hover{
+    background-color: var(--SECONDARY);
+}
+table tr, th, td, caption{
+    border: 1px solid rgb(230, 60, 60);
+    border-radius: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: auto;
+}
+.esterno{
+    display: inherit;
+    font-weight: bolder;
+    color: rgb(1, 188, 101));
+}
+.tasto{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--SECONDARY-BACKGROUND-COLOR);
+    background-color: var(--PRIMARY);
+    border: var(--PRIMARY);
+    border-radius: 0.7rem;
+}
+.tasto:hover{
+    cursor: pointer;
+    background-color: var(--SECONDARY);
+    color: black;
+}
+.tasto:active{
+    background-color: var(--TERTIARY);
+}
+textarea{
+    font: inherit;
+    font-weight: bold;
+    background-color: var(--PRIMARY);
+    color: var(--SECONDARY-BACKGROUND-COLOR);
+    padding: 1.5%;
+    border-radius: 0.7rem;
+    border-style: none;
+
+
+}
